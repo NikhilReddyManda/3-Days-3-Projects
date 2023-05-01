@@ -3,5 +3,5 @@ These are the speedrun projects made by Nikhil Reddy. These websites are Fast, R
 
 Here are the links to see these website in action:
 
-[Biryani Website](https://indian-biryani-website.netlify.app)
-[Netflix 404 Page](https://netflix-404-page.netlify.app)
+- [Biryani Website](https://indian-biryani-website.netlify.app)
+- [Netflix 404 Page](https://netflix-404-page.netlify.app)
