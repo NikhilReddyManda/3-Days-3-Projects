@@ -1,0 +1,223 @@
+/*Font Imports*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/*Global Font Sizes Starts*/
+.title_1 {
+  font-size: 6vh;
+}
+
+.title_2 {
+  font-size: xx-large;
+}
+
+.description_1 {
+  font-size: x-large;
+}
+
+.description_2 {
+  font-size: larger;
+}
+/*Global Font Sizes Ends*/
+
+/*Global Reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+  height: 10vh;
+  font-size: 2.5vh;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 3vh 4vw;
+}
+
+li:hover {
+  background-color: #fc8d32;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  width: 45vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  float: right;
+}
+
+/* Home */
+#home {
+  display: flex;
+  margin-top: 10vh;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  background-image: url(./images/Biryani_home_page.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Menu */
+
+#menu {
+  padding-top: 2vh;
+  text-align: center;
+}
+
+.menu-grid {
+  display: grid;
+  gap: 4vw;
+  grid-template-columns: auto auto auto;
+  padding: 1vh 1vw;
+}
+
+.menu-grid-items {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 0 1.25rem 1.25rem 1.25rem;
+  text-align: center;
+}
+
+.menu-title {
+  font-size: larger;
+  border-bottom: 3px solid rgba(0, 0, 0);
+}
+
+.menu-img {
+  padding-top: 1vh;
+  width: 27vw;
+  height: 45vh;
+  object-fit: cover;
+}
+
+button {
+  font-family: Poppins;
+  font-size: 2.5vh;
+  background-color: #fc8d32;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: 1vh 1vw;
+  padding: 1.5vh 1.5vw;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#ratings {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  border-top: 3px solid black;
+  text-align: center;
+  background-image: url(./Images/Blurred_Rating_Background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+
+.side {
+  float: left;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.middle {
+  float: left;
+  width: 70%;
+  margin-top: 10px;
+}
+
+.right {
+  text-align: right;
+}
+
+.row {
+  padding-top: 3vh;
+  width: 50%;
+  margin-left: 30vw;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+
+.bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+
+  .right {
+    display: none;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
