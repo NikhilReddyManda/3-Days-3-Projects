@@ -1,5 +1,5 @@
 # 3-Days-3-Projects
-These are the speedrun projects made by Nikhil Reddy. These websites are made using HTML, CSS.
+These are the projects made by Nikhil Reddy. These websites are made using HTML, CSS.
 
 Here are the links to see these websites in action:
 
