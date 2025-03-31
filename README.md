@@ -1,5 +1,4 @@
-# 3-Days-3-Projects
-These are the projects made by Nikhil Reddy. These websites are made using HTML, CSS.
+# Responsive Websites
 
 Here are the links to see these websites in action:
 
